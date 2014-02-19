@@ -24,14 +24,34 @@
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <title>Hello World</title>
+  
+    <script>
+                  function showAlert() {
+        navigator.notification.alert(
+            'You are the winner!',  // message
+            alertDismissed,         // callback
+            'Game Over',            // title
+            'Done'                  // buttonName
+        );
+    }
+
+    </script>
+  
     </head>
     <body>
         <div class="app">
             <h1>PhoneGap</h1>
             <div id="deviceready" class="blink">
             <h1>
-                <p class="event listening">Connecting to Device</p>
+                <p class="event listening">UUUUUUUUUUUUUUUUUU</p>
                 <p class="event received">Device is Ready</p>
+                
+                
+  
+  
+    <p><a href="#" onclick="showAlert(); return false;">Show Alert</a></p>
+  
+                
                 </h1>
             </div>
         </div>
